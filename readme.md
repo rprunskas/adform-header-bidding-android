@@ -12,7 +12,7 @@
 
 	    ...
 		repositories {
-    		maven { url "https://github.com/adform/adform-header-bidding-sdk/raw/master/releases/" }
+    		maven { url "https://github.com/adform/adform-header-bidding-android/raw/master/releases/" }
 		}
         ...
         
