@@ -12,11 +12,11 @@
 
 	    ...
 		repositories {
-    		maven { url "https://github.com/adform/adform-header-bidding-android/raw/master/releases/" }
+    		maven { url "https://github.com/adform/adform-header-bidding-sdk/raw/master/releases/" }
 		}
         ...
         
-![](http://i.imgur.com/xExE30V.png)
+![](https://raw.githubusercontent.com/adform/adform-header-bidding-android/master/screenshots/687474703a2f2f692e696d6775722e636f6d2f784578453330562e706e67.png)
 
 * Then in the dependency group we need to specify that we will be using `AdformHeaderBiddingSdk`, and also add `Google Play Ads` service.
 
@@ -28,7 +28,7 @@
         }
         ...
         
-![](http://i.imgur.com/7ESWcn7.png)
+![](https://raw.githubusercontent.com/adform/adform-header-bidding-android/master/screenshots/687474703a2f2f692e696d6775722e636f6d2f37455357636e372e706e67.png)
         
 ## 3. Update AndroidManifest.xml
 
@@ -54,7 +54,7 @@
 	    android:value="@integer/google_play_services_version"/>
   ```
     
-![](http://i.imgur.com/V8sGME4.png)
+![](https://raw.githubusercontent.com/adform/adform-header-bidding-android/master/screenshots/687474703a2f2f692e696d6775722e636f6d2f563873474d45342e706e67.png)
     
 Now you are set to use sdk.
 
